@@ -1,0 +1,138 @@
+body{
+    font-family: Montserrat-Light;
+    text-align: center;
+    background: #100e19;
+}
+a.menu_link{
+    text-decoration: none;
+    font-size: 23px;
+    background: #32295c;
+    padding: 7px 60px;
+    margin: 4px 7px;
+    color: #fff;
+}
+div.container{
+    margin: 0px 350px;
+    background: #1e1645;
+}
+div.h1{
+    font-size: 25px;
+    color: #fff;
+    background: #463c76;
+}
+h1{
+    padding: 7px;
+}
+div.text{
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+}
+a.BTM{
+    background: #100e19;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 7px 60px;
+    border-radius: 20px; 
+    color: #fff;
+}
+a.BTM:hover{
+    background: #727272;
+    transition: 0.3s;
+}
+img#img1{
+    width: 600px;
+}
+img#img2{
+    width: 600px;
+}
+p.mr{
+    color: #fff;
+}
+/*------------------------------Cl-------------------------------*/
+img#logo-site0{
+    width: 100px;
+    padding: 10px;
+}
+
+div.menu-logger{
+    background: #121627;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+}
+a.menu_link1{
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+}
+
+a.menu_link1:hover{
+    background: #1b2139;
+    transition: 0.1s;
+}
+/*------------------------------Cl-------------------------------*/
+
+@media (max-width: 1600px){
+    div.container{
+        margin: 0px 100px;
+    }
+}
+@media (max-width: 840px){
+    img#img1{
+        width: 500px;    
+    }
+    img#img2{
+        width: 500px;    
+    }
+    a.menu_link{
+    font-size: 18px;
+    padding: 5px 40px;
+    margin: 2px 4px;
+    }
+    div.h1{
+    font-size: 19px;
+    }
+    div.text{
+        font-size: 16px;
+    }
+    a.BTM{
+    font-size: 27px;
+    padding: 5px 40px;
+    }
+}
+@media (max-width: 750px){
+    div.container{
+        margin: 0px 40px;
+    }
+    img#img1{
+        width: 340px;    
+    }
+    img#img2{
+        width: 340px;    
+    }
+    a.menu_link{
+    font-size: 18px;
+    padding: 5px 30px;
+    margin: 1px 2px;
+    }
+}
+@media (max-width: 460px){
+    div.container{
+        margin: 0px auto;
+    }
+    img#img1{
+        width: 250px;    
+    }
+    img#img2{
+        width: 250px;    
+    }
+    a.menu_link{
+    font-size: 16px;
+    padding: 2px 10px;
+    margin: 0.4px;
+    }
+}

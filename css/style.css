@@ -1,0 +1,60 @@
+body{
+    font-family: Arial;
+}
+/*------------------------------Cl-------------------------------*/
+img#logo-site0{
+    width: 100px;
+    padding: 10px;
+}
+
+div.menu-logger{
+    background: #121627;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+}
+/*------------------------------Cl-------------------------------*/
+a.menu_link{
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+}
+
+a.menu_link:hover{
+    background: #1b2139;
+    transition: 0.1s;
+}
+
+div.content{
+    border-radius: 10px;
+    background: #242c4e;
+}
+
+div.main-home{
+    margin: 0px 300px;
+    color: #fff;
+}
+
+div.pages-main{
+    margin: 0px 300px;
+    width: auto;
+}
+
+div.page#page1{
+    margin: 5px;
+}
+
+div.text{
+    color: #fff;
+    text-decoration: none;
+    background: #2e335a;
+    font-size: 30px;
+    text-align: center;
+}
+
+img.img-page{
+    width: 1295px;
+}
