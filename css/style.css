@@ -58,3 +58,7 @@ div.text{
 img.img-page{
     width: 1295px;
 }
+
+div.text#page-text1{
+    text-decoration: none;   
+}
